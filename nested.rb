@@ -150,4 +150,3 @@ def changing_alan
 alan_new = "GUI"
 programmer_hash[:alan_kay][:known_for] = alan_new
 end
-
