@@ -57,6 +57,25 @@ def alan_kay_is_known_for
   return programmer_hash[:alan_kay][:known_for]
 end
 
+def changing_alan
+
+	programmer_hash =
+ 		{
+      :grace_hopper => {
+        :known_for => "COBOL",
+        :languages => ["COBOL", "FORTRAN"]
+      },
+      :alan_kay => {
+        :known_for => "GUI",
+        :languages => ["Smalltalk", "LISP"]
+      },
+      :dennis_ritchie => {
+        :known_for => "Unix",
+        :languages => ["C"]
+      }
+    }
+
+end
 
 def dennis_ritchies_language
 	programmer_hash =
@@ -127,26 +146,7 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
-    programmer_hash[:dennis_ritchie][:language] << "Assembly"
+    programmer_hash[:dennis_ritchie][:language]<<"Assembly"
     return programmer_hash
 end
 
-def changing_alan
-
-	programmer_hash =
- 		{
-      :grace_hopper => {
-        :known_for => "COBOL",
-        :languages => ["COBOL", "FORTRAN"]
-      },
-      :alan_kay => {
-        :known_for => "GUI",
-        :languages => ["Smalltalk", "LISP"]
-      },
-      :dennis_ritchie => {
-        :known_for => "Unix",
-        :languages => ["C"]
-      }
-    }
-
-end
