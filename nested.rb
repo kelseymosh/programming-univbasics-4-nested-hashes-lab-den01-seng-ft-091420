@@ -132,6 +132,8 @@ def adding_to_dennis
 end
 
 def changing_alan
+  alan_new = "GUI"
+
 	programmer_hash =
  		{
       :grace_hopper => {
@@ -147,6 +149,5 @@ def changing_alan
         :languages => ["C"]
       }
     }
-alan_new = "GUI"
 programmer_hash[:alan_kay][:known_for] = alan_new
 end
